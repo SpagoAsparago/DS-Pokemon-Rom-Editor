@@ -1492,7 +1492,30 @@ namespace DSPRE.Resources {
             [0x033C] = "TextItemLowercase",
             [0x0346] = "TextCapitalize",
 
-            [0x0347] = "DisplayFloor"
+            [0x0347] = "DisplayFloor",
+
+            //Following Platinum commands
+            [0x0348] = "CustomCMD1",
+            [0x0349] = "CustomCMD2",
+            [0x034A] = "CustomCMD3",
+            [0x034B] = "CustomCMD4",
+            [0x034C] = "CustomCMD5",
+            [0x034D] = "CustomCMD6",
+            [0x034E] = "CustomCMD7",
+            [0x034F] = "CustomCMD8",
+            [0x0350] = "CustomCMD9",
+            [0x0351] = "CustomCMD10",
+            [0x0352] = "CustomCMD11",
+            [0x0353] = "CustomCMD12",
+            [0x0354] = "CustomCMD13",
+            [0x0355] = "CustomCMD14",
+            [0x0356] = "CustomCMD15",
+            [0x0357] = "CustomCMD16",
+            [0x0358] = "CustomCMD17",
+            [0x0359] = "CustomCMD18",
+            [0x035A] = "CustomCMD19",
+            [0x035B] = "CustomCMD20",
+            [0x035C] = "CustomCMD21"
         };
 
         public static Dictionary<ushort, byte[]> PlatScrCmdParameters = new Dictionary<ushort, byte[]>() {
@@ -1636,7 +1659,30 @@ namespace DSPRE.Resources {
             [0x0344] = new byte[] { 1, 2 },
             [0x0345] = new byte[] { 1, 2 },
             [0x0346] = new byte[] { 1 },
-            [0x0347] = new byte[] { 1, 1 }
+            [0x0347] = new byte[] { 1, 1 },
+
+            ////Following Platinum commands
+            [0x0348] = new byte[] { 2, 2, 2, 2 },
+            [0x0349] = new byte[] { 2, 2, 2 }, //unused?
+            [0x034A] = new byte[] { 2, 2, 2 }, //unused?
+            [0x034B] = new byte[] { 2, 2, 2 }, //unused?
+            [0x034C] = new byte[1] { 0 },
+            [0x034D] = new byte[1] { 0 }, 
+            [0x034E] = new byte[] { 2, 2, 2 }, //unused?
+            [0x034F] = new byte[] { 2, 2, 2 },
+            [0x0350] = new byte[] { 2, 2, 2 }, //unused?
+            [0x0351] = new byte[] { 2 }, 
+            [0x0352] = new byte[1] { 0 },
+            [0x0353] = new byte[1] { 0 },
+            [0x0354] = new byte[] { 2, 2, 2 }, //unused?
+            [0x0355] = new byte[1] { 0 }, 
+            [0x0356] = new byte[1] { 0 }, 
+            [0x0357] = new byte[] { 2, 2, 2 },
+            [0x0358] = new byte[] { 2 },
+            [0x0359] = new byte[] { 2, 2 },
+            [0x035A] = new byte[] { 2, 2 },
+            [0x035B] = new byte[] { 2 },
+            [0x035C] = new byte[] { 2 }
         };
 
         public static Dictionary<ushort, string> HGSSScrCmdNames = new Dictionary<ushort, string>() {
